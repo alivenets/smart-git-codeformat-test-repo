@@ -1,12 +1,13 @@
 #include "example.h"
 
+#include   <iostream>
 #include <cmath>
 
 namespace smartgit
 {
     double calculateSquareRoot(double x)
     {
-        return 0.0;
+      return(x*x);
     }
 
     void printSomething()
