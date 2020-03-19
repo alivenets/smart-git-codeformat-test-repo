@@ -8,5 +8,8 @@ namespace smartgit
     }
 
     double calculateSquareRoot(double x);
-    void printSomething();
+    void
+    printLine();
+    void
+    printAnotherLine();
 }

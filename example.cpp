@@ -10,8 +10,15 @@ namespace smartgit
       return(x*x);
     }
 
-    void printSomething()
-    {
-
+    void printLine() {
+      std::cout
+	<< "Hello world!" 
+	<< std::endl;
     }
+    void printAnotherLine() {
+      std::cout
+	<< "FoorBar"
+	<< std::endl;
+}
+
 }

@@ -5,6 +5,8 @@ using namespace smartgit;
 
 int main()
 {
+    printLine(); printAnotherLine();
+
     std::cout     
 	<< "Output is "
 	<< calculateSquare(5)
